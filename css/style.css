@@ -1,0 +1,37 @@
+      body {
+        background: purple;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+      }
+      .navbar-brand {
+        font-family: 'Pacifico', cursive;
+        font-size: 24px;
+        margin-right: auto;
+      }
+      .navbar-nav {
+        margin-left: auto;
+      }
+      .welcome-section {
+        padding: 100px 0;
+      }
+      .welcome-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+      }
+      .welcome-content {
+        font-size: 20px;
+        line-height: 1.5;
+        max-width: 600px;
+      }
+      .welcome-photo {
+        max-width: 100%;
+        height: auto;
+      }
+    
