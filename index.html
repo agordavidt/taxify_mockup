@@ -8,19 +8,86 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Welcome to Taxify!</title>
   </head>
   <body>    
 
-    <section id="home">
-        <div class="container">
-          <h1>Welcome to Taskify!</h1>
-          <p>A powerful task management application.</p>
-          <a href="signup.html" class="btn btn-primary">Sign Up</a>
-          <a href="login.html" class="btn btn-secondary">Log In</a>
+    <style>
+      body {
+        background: purple;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+      }
+      .navbar-brand {
+        font-family: 'Pacifico', cursive;
+        font-size: 24px;
+        margin-right: auto;
+      }
+      .navbar-nav {
+        margin-left: auto;
+      }
+      .welcome-section {
+        padding: 100px 0;
+      }
+      .welcome-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+      }
+      .welcome-content {
+        font-size: 20px;
+        line-height: 1.5;
+        max-width: 600px;
+      }
+      .welcome-photo {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    <title>Taxify</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Taxify</a>
+        <div class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logout.html">Logout</a>
+            </li>
+          </ul>
         </div>
-      </section>
-
+      </div>
+    </nav>
+  
+    <section class="welcome-section">
+      <div class="container">
+        <div class="welcome-grid">
+          <div class="welcome-content">
+            <h1>Welcome to Taxify!</h1>
+            <p>
+              Taxify is the ultimate task management application designed to streamline your workflow and boost productivity. With Taxify, you can effortlessly organize your tasks, prioritize deadlines, and collaborate with your team to achieve your goals.
+            </p>
+            <p>
+              Experience a seamless task management experience with an intuitive user interface, real-time updates, and powerful features. Join Taxify today and take control of your tasks like never before.
+            </p>
+          </div>
+          <div>
+            <img src="welcome-photo.jpg" alt="Welcome Photo" class="welcome-photo">
+          </div>
+        </div>
+      </div>
+    </section>
+  
 
     <!-- Optional JavaScript; choose one of the two! -->
 
