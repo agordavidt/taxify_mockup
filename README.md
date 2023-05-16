@@ -24,15 +24,4 @@ Taskify is a web application designed to help you manage your tasks and projects
 ## Contributors
 David Agor
 
-## License
-This project is licensed under the MIT License.
 
-## Acknowledgements
-Special thanks to the following resources for their valuable contributions to this project:
-
-Bootstrap: https://getbootstrap.com/
-React: https://reactjs.org/
-Flask: https://flask.palletsprojects.com/
-MySQL: https://www.mysql.com/
-Feedback and Support
-If you have any feedback, questions, or issues, please feel free to reach out to us at taskify@example.com. We appreciate your support and are here to assist you.
