@@ -8,7 +8,7 @@ Taskify is a web application designed to help you manage your tasks and projects
 * Project Management: Organize tasks into projects, assign tasks to specific projects, and track project progress.
 * User Profile: Update your profile information and change your password.
 ## Installation
-1. Clone the repository: git clone https://github.com/your-username/taskify.git
+1. Clone the repository: git clone https://github.com/agordavidt/taskify.git
 2. Install dependencies: npm install
 3. Start the development server: npm start
 4. Open http://localhost:3000 in your web browser.
