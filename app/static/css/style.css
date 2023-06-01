@@ -1,0 +1,90 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #f1f1f1;
+  padding: 10px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.menu ul {
+  list-style: none;
+  float: right;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Home Page Styles */
+.home {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.home h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Form Styles */
+form input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Dashboard Styles */
+.dashboard .tasks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.dashboard .task {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dashboard .btn {
+  display: block;
+  margin-top: 20px;
+}

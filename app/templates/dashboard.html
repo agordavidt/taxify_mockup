@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="dashboard">
+    <div class="container">
+        <h2>Dashboard</h2>
+        <div class="tasks">
+            {% for task in tasks %}
+            <div class="task">
+                <h3>{{ task.title }}</h3>
+                <p>{{ task.description }}</p>
+                <p>Due Date: {{ task.due_date }}</p>
+                <p>Priority: {{ task.priority }}</p>
+                <p>Status: {% if task.completed %}Completed{% else %}Incomplete{% endif %}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <a href="{{ url_for('create_task') }}" class="btn">Create Task</a>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="project-management">
+    <div class="container">
+        <h2>Project Management</h2>
+        <div class="projects">
+            {% for project in projects %}
+            <div class="project">
+                <h3>{{ project.name }}</h3>
+                <p>Description: {{ project.description }}</p>
+                <p>Number of Tasks: {{ project.task_count }}</p>
+                <div class="options">
+                    <a href="{{ url_for('edit_project', project_id=project.id) }}" class="btn">Edit Project</a>
+                    <a href="{{ url_for('delete_project', project_id=project.id) }}" class="btn">Delete Project</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <a href="{{ url_for('create_project') }}" class="btn">Create Project</a>
+    </div>
+</section>
+{% endblock %}
