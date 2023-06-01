@@ -17,13 +17,13 @@
 ## Installation
 
 1. Clone the repository:
-   `git clone https://github.com/your-username/taskify.git`
+   `git clone https://github.com/your-username/taxify_mockup`
 
 2. Install dependencies: `npm install`
 
 3. Start the development server: `npm start`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your web browser.
+4. Open [http://localhost:3000](http://localhost:500) in your web browser.
 
 ---
 
@@ -63,6 +63,4 @@ Special thanks to the following resources for their valuable contributions to th
 
 ---
 
-## Feedback and Support
 
-If you have any feedback, questions, or issues, please feel free to reach out to us at [taskify@example.com](taskify@example.com). We appreciate your support and are here to assist you.
