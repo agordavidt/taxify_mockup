@@ -1,3 +1,4 @@
+[Oi
 # **Taskify**
 
 *Taskify* is a web application designed to help you manage your tasks and projects efficiently. It provides a user-friendly interface for *creating*, *organizing*, and *tracking* your tasks, ensuring you stay productive and organized.
@@ -46,20 +47,6 @@
 - Blessing Nwakwuo
 - Jesse Kyambadde
 - David Agor
-
----
-
-This project is licensed under the **MIT** License.
-
----
-
-## Acknowledgements
-
-Special thanks to the following resources for their valuable contributions to this project:
-
-1. **React**: [https://reactjs.org/](https://reactjs.org/)
-2. **Flask**: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
-3. **MySQL**: [https://www.mysql.com/](https://www.mysql.com/)
 
 ---
 
